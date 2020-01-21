@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+	</head>
+	<style>
+		img {
+			float: right;
+		}
+		#rounded {
+			border: 2px black;
+			padding: 10px;
+			border-radius: 10px;
+}
+	</style>
+	<body>
+		<p><img src="some.jpeg" alt="some" style="width:704px;height:832px">
+			The meme will float.
+		</p>
+		<div id="rounded">
+			<p>An element with rounded border corners</p>
+			</div>
+	</body>
+</html>
